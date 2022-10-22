@@ -18,7 +18,7 @@ Evento exclusivo e gratuito, promovido pelos Gemeos Dev para ensino de tecnologi
 <br>
 
 <p align="center">
-  <img alt="Mini Portfólio" src=".github/project.png" width="100%">
+  <img alt="Mini Portfólio" src=".github/project.PNG" width="100%">
 </p>
 
 ## 🚀 Tecnologias
