@@ -1,0 +1,163 @@
+body {
+    background-image: url(../img/bg-space.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    color: #f3f3f3;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    padding: 30px;
+}
+
+.card {
+    background-color: #070d12;
+    width: 370px;
+
+    border: 2px solid #e126d9;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.tabs img {
+    width: 30px;
+}
+
+.card .my-info {
+    padding-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+    .card .my-info .img-profile {
+        width: 96px;
+        height: 96px;
+
+        border: 4px solid #02d08f;
+        border-radius: 50px;
+    }
+
+    .card .my-info .title {
+        font-size: 26px;
+    }
+
+    .card .my-info .subtitle {
+        font-size: 20px;
+        color: #b8bbc5;
+    }
+
+.card .content {
+    margin-top: 15px;
+}
+
+    .card .tabs {
+        display: flex;
+    }
+
+    .card .tabs .tab {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    .card .tabs .tab.selected {
+        background-color: #262626;
+    }
+
+    .card .tabs .tab:hover {
+        background-color: #414141;
+    }
+
+.card .content-tabs {
+    background-color: #262626;
+}
+
+.content-tabs .info {
+    min-height: 270px;
+    padding: 15px;
+
+    display: none;
+}
+
+.content-tabs .info.selected{
+    display: block;
+}
+
+    .content-tabs .subtitle {
+        font-size: 32px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .content-tabs .description {
+        font-size: 20px;
+        max-height: 180px;
+
+        overflow-y: auto;
+        padding-right: 15px;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        text-align: justify;
+    }
+        
+    .content-tabs .description span {
+        color: #02d08f;
+    }
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    align-items: center;
+
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+    .social-media li a {
+        width: 250px;
+        display: block;
+        color: #f3f3f3;
+        text-align: center;
+        padding: 10px;
+
+        font-size: 20px;
+
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .social-media li a:hover {
+       opacity: 0.8;
+    }
+
+    .social-media .curriculo {
+        background-color: #06c185;
+    }
+
+    .social-media .linkedin {
+        background-color: #1d87bd;
+    }
+
+    .social-media .github {
+        background-color: #545454;
+    }
